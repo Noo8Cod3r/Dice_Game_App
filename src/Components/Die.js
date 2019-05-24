@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import './Die.css';
 
+
+// The Die Component with classes
 class Die extends Component {
   render(){
     return (

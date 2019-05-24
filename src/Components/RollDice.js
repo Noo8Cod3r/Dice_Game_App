@@ -13,6 +13,7 @@ class RollDice extends Component {
       this.roll = this.roll.bind(this)
     }
 
+    // Randomizes the Die roll and stops 1 second later.
     roll(){
      const newDie1 = this.props.sides[ Math.floor(Math.random() * this.props.sides.length)];
      const newDie2 = this.props.sides[ Math.floor(Math.random() * this.props.sides.length)];
@@ -24,6 +25,7 @@ class RollDice extends Component {
      }, 1000)
     }
 
+    // Renders the Die and Button Components
   render() {
      return (
        <div className='RollDice'>
