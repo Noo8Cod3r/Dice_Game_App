@@ -24,7 +24,6 @@ class RollDice extends Component {
      }, 500)
     }
 
-
   render() {
      return (
        <div className='RollDice'>
